@@ -41,9 +41,10 @@ public class StudentDAO {
 				return rs.next();
 				
 		} catch (SQLException e) {
-			e.printStackTrace();
+			//e.printStackTrace();
+			return false;
 
 		}
-		return false;
+		
 	}
 }

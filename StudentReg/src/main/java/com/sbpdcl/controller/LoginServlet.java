@@ -49,6 +49,7 @@ public class LoginServlet extends HttpServlet {
 		}
 		else {
 			request.setAttribute("error message", "Invalid username or password, Please try again");
+			//response.sendRedirect("index.html");
 		}
 		
 		
